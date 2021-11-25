@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 03, 2021 at 09:53 PM
+-- Generation Time: Nov 25, 2021 at 06:20 AM
 -- Server version: 10.4.19-MariaDB
 -- PHP Version: 7.4.20
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `temix`
+-- Database: `tops_world`
 --
 
 -- --------------------------------------------------------
@@ -121,11 +121,11 @@ CREATE TABLE `categories` (
 --
 
 INSERT INTO `categories` (`category_id`, `category`) VALUES
-(3, 'Cakes'),
-(4, 'Ice Cream'),
-(5, 'Snacks'),
+(3, 'Men Wears'),
+(4, 'Female Wears'),
+(5, 'Shoes'),
 (6, 'Others'),
-(8, 'Bed Sheets');
+(8, 'Glasses');
 
 -- --------------------------------------------------------
 
@@ -300,7 +300,7 @@ CREATE TABLE `users` (
 INSERT INTO `users` (`user_id`, `first_name`, `last_name`, `email`, `user_password`, `phone_number`, `address`, `city`, `subscriber`) VALUES
 (1, 'Kelly', 'Ikpefua', 'onostarkels@gmail.com', 'ymcmbher0', '07068897068', 'Okabere road, Off Sapele road', 'Benin', 1),
 (2, 'Paul', 'Ikpefua', 'paulinhonavas@gmail.com', 'paulinhonavas', '07057456881', '27 father hilly street off ometan road', 'Warri', 0),
-(3, 'Temix', 'Empire', 'admin@temixempire.com', 'temidayo', '09023140300', '123 Jakpa Road', 'Warri', 0),
+(3, 'Temix', 'Empire', 'admin@topsworld.com', 'topsworld', '09023140300', '123 Jakpa Road', 'Warri', 0),
 (4, 'Taiwo', 'Oni', 'bolu@gmail.com', 'bolu123', '0908989', 'Pz road Off sapele road', 'Benin', 1),
 (5, 'Cynthia', 'Ikpefua', 'cy@gmail.com', 'cygracious', '089889', '', '', 0),
 (6, 'James', 'Onyema', 'mexylj@yahoo.com', 'ymcmbher0', '07057456881', '', '', 0),
